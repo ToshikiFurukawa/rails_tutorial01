@@ -25,4 +25,5 @@ group :development do
   gem 'web-console', '~> 2.0'
   gem 'spring'
   gem 'pg'
+  gem 'puma','2.11.1'
 end
