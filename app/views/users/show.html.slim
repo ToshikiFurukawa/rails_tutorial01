@@ -1,0 +1,7 @@
+- provide(:title,@user.name)
+.row
+  aside.co-md-4
+    section.user_info
+      h1
+        = gravatar_for @user
+        = @user.name
