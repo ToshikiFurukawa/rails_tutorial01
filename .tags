@@ -3,19 +3,6 @@ show	/Users/furukawatoshiki/Development/rails_tutorial01/app/controllers/users_c
 new	/Users/furukawatoshiki/Development/rails_tutorial01/app/controllers/users_controller.rb	/^  def new$/;"	method	line:5	class:UsersController
 create	/Users/furukawatoshiki/Development/rails_tutorial01/app/controllers/users_controller.rb	/^  def create$/;"	method	line:9	class:UsersController
 user_params	/Users/furukawatoshiki/Development/rails_tutorial01/app/controllers/users_controller.rb	/^    def user_params$/;"	method	line:21	class:UsersController
-User	/Users/furukawatoshiki/Development/rails_tutorial01/app/models/user.rb	/^class User < ActiveRecord::Base$/;"	class	line:1
-digest	/Users/furukawatoshiki/Development/rails_tutorial01/app/models/user.rb	/^  def User.digest(string)$/;"	singleton method	line:12	class:User
-new_token	/Users/furukawatoshiki/Development/rails_tutorial01/app/models/user.rb	/^  def User.new_token$/;"	singleton method	line:18	class:User
-remember	/Users/furukawatoshiki/Development/rails_tutorial01/app/models/user.rb	/^  def self.remember$/;"	singleton method	line:22	class:User
-authenticated?	/Users/furukawatoshiki/Development/rails_tutorial01/app/models/user.rb	/^  def authenticated?(remember_token)$/;"	method	line:27	class:User
-forget	/Users/furukawatoshiki/Development/rails_tutorial01/app/models/user.rb	/^  def forget$/;"	method	line:32	class:User
-SessionsHelper	/Users/furukawatoshiki/Development/rails_tutorial01/app/helpers/sessions_helper.rb	/^module SessionsHelper$/;"	module	line:1
-log_in	/Users/furukawatoshiki/Development/rails_tutorial01/app/helpers/sessions_helper.rb	/^    def log_in(user)$/;"	method	line:3	class:SessionsHelper
-remember	/Users/furukawatoshiki/Development/rails_tutorial01/app/helpers/sessions_helper.rb	/^    def remember(user)$/;"	method	line:7	class:SessionsHelper
-current_user	/Users/furukawatoshiki/Development/rails_tutorial01/app/helpers/sessions_helper.rb	/^    def current_user$/;"	method	line:14	class:SessionsHelper
-logged_in?	/Users/furukawatoshiki/Development/rails_tutorial01/app/helpers/sessions_helper.rb	/^    def logged_in?$/;"	method	line:26	class:SessionsHelper
-forget	/Users/furukawatoshiki/Development/rails_tutorial01/app/helpers/sessions_helper.rb	/^    def forget(user)$/;"	method	line:30	class:SessionsHelper
-log_out	/Users/furukawatoshiki/Development/rails_tutorial01/app/helpers/sessions_helper.rb	/^    def log_out$/;"	method	line:36	class:SessionsHelper
 gray-medium-light	/Users/furukawatoshiki/Development/rails_tutorial01/app/assets/stylesheets/custom.css.scss	/^$gray-medium-light: #eaeaea;$/;"	function	line:6
 @mixin box_sizing	/Users/furukawatoshiki/Development/rails_tutorial01/app/assets/stylesheets/custom.css.scss	/^@mixin box_sizing{$/;"	function	line:8
 body	/Users/furukawatoshiki/Development/rails_tutorial01/app/assets/stylesheets/custom.css.scss	/^body{$/;"	function	line:16
@@ -56,4 +43,17 @@ span	/Users/furukawatoshiki/Development/rails_tutorial01/app/assets/stylesheets/
 SessionsController	/Users/furukawatoshiki/Development/rails_tutorial01/app/controllers/sessions_controller.rb	/^class SessionsController < ApplicationController$/;"	class	line:1
 new	/Users/furukawatoshiki/Development/rails_tutorial01/app/controllers/sessions_controller.rb	/^  def new$/;"	method	line:3	class:SessionsController
 create	/Users/furukawatoshiki/Development/rails_tutorial01/app/controllers/sessions_controller.rb	/^  def create$/;"	method	line:6	class:SessionsController
-destroy	/Users/furukawatoshiki/Development/rails_tutorial01/app/controllers/sessions_controller.rb	/^  def destroy$/;"	method	line:19	class:SessionsController
+destroy	/Users/furukawatoshiki/Development/rails_tutorial01/app/controllers/sessions_controller.rb	/^  def destroy$/;"	method	line:18	class:SessionsController
+SessionsHelper	/Users/furukawatoshiki/Development/rails_tutorial01/app/helpers/sessions_helper.rb	/^module SessionsHelper$/;"	module	line:1
+log_in	/Users/furukawatoshiki/Development/rails_tutorial01/app/helpers/sessions_helper.rb	/^    def log_in(user)$/;"	method	line:3	class:SessionsHelper
+remember	/Users/furukawatoshiki/Development/rails_tutorial01/app/helpers/sessions_helper.rb	/^    def remember(user)$/;"	method	line:7	class:SessionsHelper
+current_user	/Users/furukawatoshiki/Development/rails_tutorial01/app/helpers/sessions_helper.rb	/^    def current_user$/;"	method	line:14	class:SessionsHelper
+logged_in?	/Users/furukawatoshiki/Development/rails_tutorial01/app/helpers/sessions_helper.rb	/^    def logged_in?$/;"	method	line:26	class:SessionsHelper
+forget	/Users/furukawatoshiki/Development/rails_tutorial01/app/helpers/sessions_helper.rb	/^    def forget(user)$/;"	method	line:30	class:SessionsHelper
+log_out	/Users/furukawatoshiki/Development/rails_tutorial01/app/helpers/sessions_helper.rb	/^    def log_out$/;"	method	line:36	class:SessionsHelper
+User	/Users/furukawatoshiki/Development/rails_tutorial01/app/models/user.rb	/^class User < ActiveRecord::Base$/;"	class	line:1
+digest	/Users/furukawatoshiki/Development/rails_tutorial01/app/models/user.rb	/^  def User.digest(string)$/;"	singleton method	line:12	class:User
+new_token	/Users/furukawatoshiki/Development/rails_tutorial01/app/models/user.rb	/^  def User.new_token$/;"	singleton method	line:18	class:User
+remember	/Users/furukawatoshiki/Development/rails_tutorial01/app/models/user.rb	/^  def remember$/;"	method	line:22	class:User
+authenticated?	/Users/furukawatoshiki/Development/rails_tutorial01/app/models/user.rb	/^  def authenticated?(remember_token)$/;"	method	line:27	class:User
+forget	/Users/furukawatoshiki/Development/rails_tutorial01/app/models/user.rb	/^  def forget$/;"	method	line:32	class:User
