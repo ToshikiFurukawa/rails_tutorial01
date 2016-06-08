@@ -4,3 +4,7 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+SessionsController	/Users/furukawatoshiki/Development/rails_tutorial01/app/controllers/sessions_controller.rb	/^class SessionsController < ApplicationController$/;"	class	line:1
+new	/Users/furukawatoshiki/Development/rails_tutorial01/app/controllers/sessions_controller.rb	/^  def new$/;"	method	line:3	class:SessionsController
+create	/Users/furukawatoshiki/Development/rails_tutorial01/app/controllers/sessions_controller.rb	/^  def create$/;"	method	line:6	class:SessionsController
+destroy	/Users/furukawatoshiki/Development/rails_tutorial01/app/controllers/sessions_controller.rb	/^  def destroy$/;"	method	line:19	class:SessionsController
