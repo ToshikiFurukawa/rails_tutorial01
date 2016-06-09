@@ -5,8 +5,10 @@
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
 User	/Users/furukawatoshiki/Development/rails_tutorial01/app/models/user.rb	/^class User < ActiveRecord::Base$/;"	class	line:1
-digest	/Users/furukawatoshiki/Development/rails_tutorial01/app/models/user.rb	/^  def User.digest(string)$/;"	singleton method	line:12	class:User
-new_token	/Users/furukawatoshiki/Development/rails_tutorial01/app/models/user.rb	/^  def User.new_token$/;"	singleton method	line:18	class:User
-remember	/Users/furukawatoshiki/Development/rails_tutorial01/app/models/user.rb	/^  def remember$/;"	method	line:22	class:User
-authenticated?	/Users/furukawatoshiki/Development/rails_tutorial01/app/models/user.rb	/^  def authenticated?(remember_token)$/;"	method	line:27	class:User
-forget	/Users/furukawatoshiki/Development/rails_tutorial01/app/models/user.rb	/^  def forget$/;"	method	line:32	class:User
+digest	/Users/furukawatoshiki/Development/rails_tutorial01/app/models/user.rb	/^  def User.digest(string)$/;"	singleton method	line:13	class:User
+new_token	/Users/furukawatoshiki/Development/rails_tutorial01/app/models/user.rb	/^  def User.new_token$/;"	singleton method	line:19	class:User
+remember	/Users/furukawatoshiki/Development/rails_tutorial01/app/models/user.rb	/^  def remember$/;"	method	line:23	class:User
+authenticated?	/Users/furukawatoshiki/Development/rails_tutorial01/app/models/user.rb	/^  def authenticated?(remember_token)$/;"	method	line:28	class:User
+forget	/Users/furukawatoshiki/Development/rails_tutorial01/app/models/user.rb	/^  def forget$/;"	method	line:33	class:User
+downcase_email	/Users/furukawatoshiki/Development/rails_tutorial01/app/models/user.rb	/^  def downcase_email$/;"	method	line:39	class:User
+create_activation_digest	/Users/furukawatoshiki/Development/rails_tutorial01/app/models/user.rb	/^  def create_activation_digest$/;"	method	line:43	class:User
