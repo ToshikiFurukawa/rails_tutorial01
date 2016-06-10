@@ -3,7 +3,7 @@ User.create!(name:  "Sample",
              password:              "smple0",
              password_confirmation: "smple0",
              admin: true,
-             activated:true,
+             activated: true,
              activated_at: Time.zone.now)
 
 99.times do |n|
@@ -14,6 +14,6 @@ User.create!(name:  "Sample",
                email: email,
                password:              password,
                password_confirmation: password,
-               activated:true,
+               activated: true,
                activated_at: Time.zone.now)
 end

@@ -25,11 +25,13 @@ class User < ActiveRecord::Base
     update_attribute(:remember_digest, User.digest(remember_token))
   end
 # 渡されたトークンがダイジェストと一致したらtrueを返す
-  def authenticated?(attribute,token)
+
+  def authenticated?(attribute, token)
     digest = send("#{attribute}_digest")
     return false if digest.nil?
-    BCrypt::Password.new(digest).is_password?(remember_token)
+    BCrypt::Password.new(digest).is_password?(token)
   end
+
 # ユーザーログインを破棄する
   def forget
     update_attribute(:remember_digest, nil)
@@ -57,6 +59,9 @@ class User < ActiveRecord::Base
   def password_reset_expired?
     reset_sent_at < 2.hours.ago
   end
+
+
+
 
   private
 
